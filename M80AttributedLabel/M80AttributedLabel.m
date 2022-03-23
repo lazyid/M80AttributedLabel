@@ -692,7 +692,7 @@ static NSString* const M80EllipsesCharacter = @"\u2026";
     CGAffineTransform transform = [self transformForCoreText];
     CGContextConcatCTM(ctx, transform);
     
-    [self recomputeLinksIfNeeded];
+//    [self recomputeLinksIfNeeded];
     
     NSAttributedString *drawString = [self attributedStringForDraw];
     if (drawString)
